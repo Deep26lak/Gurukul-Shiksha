@@ -11,6 +11,7 @@ faqs.forEach(faq=>{
     faq.addEventListener("click",()=>{
         
         faq.classList.toggle("open")
+        
          // changing iconn
          const icon = faq.querySelector(".faq__icon i")
          if(icon.className === "fa-solid fa-plus"){
