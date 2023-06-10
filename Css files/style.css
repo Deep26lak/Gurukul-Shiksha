@@ -331,3 +331,39 @@ header{
    top: -1.5rem;
    transform:rotate(45deg)
 }
+/* ===========----  Footer   ----- ============== */
+
+footer{
+   background: var(--color-bg1);
+   padding-block: 5rem;
+   font-size: .9rem;
+}
+
+.footer__container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 5rem;
+}
+.footer__container .footer__1 .footer__logo h4{
+    font-size: 1.8rem;
+}
+.footer__container>div h4{
+    margin-bottom: 1.3rem;
+}
+footer ul  li {
+    margin-bottom: .7rem;
+}
+footer ul  li:hover{
+   text-decoration: underline;
+}
+
+.footer__socials{
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0;
+    font-size: 1.3rem;
+}
+.footer__copyright{
+   text-align: center;
+    margin-block: 2rem;
+}
