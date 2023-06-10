@@ -23,3 +23,19 @@ faqs.forEach(faq=>{
 
     })
 })
+
+// ====================  menu item  =====================
+const menu = document.querySelector(".nav__menu")
+const openMenuBtn = document.querySelector("#open-menu-btn")
+const closeMenuBtn = document.querySelector("#close-menu-btn")
+
+openMenuBtn.addEventListener("click", ()=>{
+     menu.style.display = "flex"
+     closeMenuBtn.style.display= "inline-block"
+     openMenuBtn.style.display= 'none'
+})
+closeMenuBtn.addEventListener("click",()=>{
+    menu.style.display= 'none'
+    closeMenuBtn.style.display= "none"
+    openMenuBtn.style.display= 'inline-block'
+ })
