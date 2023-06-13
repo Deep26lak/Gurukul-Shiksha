@@ -585,6 +585,10 @@ footer ul li:hover {
   .header__left p{
     margin-bottom: 1.3rem;
   }
+  .header__left h1{
+    text-shadow: .3rem .2rem var(--color-bg2) ;
+   
+  }
 
   .categories__right{
     grid-template-columns: 1fr 1fr;
